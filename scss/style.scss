@@ -18,7 +18,7 @@ nav {
 }
 
 .navbar-brand {
-  font-size: 22px;
+  font-size: 25px;
   color: rgb(255, 255, 255);
 }
 
@@ -32,6 +32,15 @@ nav {
   color: rgb(104, 41, 22);
 }
 
+  .nav-item :active {
+    color: blue;
+    text-decoration: none;
+  }
+
+
+  
+
+
 // MAIN CONTENT
 
 $main-padding-top: 80px;
@@ -43,16 +52,23 @@ main {
 
   
   h1 {
-    text-transform: uppercase;
+    
     font-weight: 900;
     color:rgb(255, 74, 19);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   p {
     font-size: 16px;
     font-weight: 300;
   }
+}
+
+.nav-item :active {
+
+  color: blue;
+    text-decoration: none;
+
 }
 
 // COLUMNS

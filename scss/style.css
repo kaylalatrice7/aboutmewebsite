@@ -35,12 +35,14 @@ main {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-main h1 {
+
+h1 {
   font-weight: 900;
   color: rgb(255, 74, 19);
   margin-bottom: 30px;
 }
-main p {
+
+p {
   font-size: 16px;
   font-weight: 300;
 }
@@ -48,6 +50,11 @@ main p {
 .nav-item :active {
   color: blue;
   text-decoration: none;
+}
+
+.lead {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 
 #hero .col-8 {

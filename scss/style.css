@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(255, 255, 255);
+}
+
+nav {
+  background-color: rgb(255, 74, 19);
+}
+
+.navbar-brand {
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
+
+.collapse a {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  margin: auto 10px;
+}
+
+.collapse a:hover {
+  color: rgb(104, 41, 22);
+}
+
+main {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+main h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: rgb(255, 74, 19);
+  margin-bottom: 20px;
+}
+main p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#hero .col-8 {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+#hero .img-col-4 {
+  max-width: 80%;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .col-sm-8 {
+    order: 1;
+  }
+  .col-sm-4 {
+    order: 2;
+  }
+  .mt-5 h1 {
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+  p {
+    text-align: center;
+    display: flex;
+  }
+}/*# sourceMappingURL=style.css.map */
